@@ -6,17 +6,20 @@
         height: 40px;
         position: fixed;
         width: 100%;
+        z-index: 1;
       }
       .navigation {
         height: 40px;
       }
-
+.nav-list{
+    margin:0;
+    line-height: 40px;
+    list-style:none;
+}
       .nav-item {
         color: white;
         float: left;
         margin-left: 16px;
-        list-style-type: none;
-        line-height: 50%;
       }
 
       .content {
@@ -28,8 +31,9 @@
         height: 200px;
         width: 200px;
         background-color: aquamarine;
-        position: relative;
-        margin-top: calc(50vh - 100px);
+        position: absolute;
+        top: calc(50vh - 100px);
+        left: calc(50% - 100px);
       }
       .ear_right,
       .ear_left {
