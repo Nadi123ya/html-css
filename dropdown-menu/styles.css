@@ -7,7 +7,7 @@
         opacity: 0.8;
         font-size: 16px;
         color: white;
-        display:inline-block;
+       
       }
       .dropdown {
         margin: 16px;
@@ -32,7 +32,7 @@
         background-color: ghostwhite;
       }
 
-      .dropdown:hover {
+      .dropdown:hover .menu-button{
         opacity: 1;
       }
 
