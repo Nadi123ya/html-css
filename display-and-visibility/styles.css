@@ -1,0 +1,19 @@
+ 
+      * {
+        box-sizing: border-box;
+      }
+      div > div {
+        width: 100px;
+        height: 100px;
+        background: coral;
+      }
+      div > div:first-child {
+        display: none;
+      }
+      div > div:nth-child(2) {
+        visibility: hidden;
+      }
+      div > div:nth-child(3) {
+        visibility: visible;
+      }
+ 
