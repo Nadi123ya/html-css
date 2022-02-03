@@ -3,9 +3,11 @@
 }
 .gallery {
   display: flex;
-  cursor: all-scroll;
+  overflow-x: auto;
 }
 .thumb {
   margin: 8px;
-  overflow: auto;
+}
+.gallery:hover {
+  cursor: all-scroll;
 }
