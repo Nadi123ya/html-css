@@ -11,7 +11,7 @@ h1 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 50vw;
+  width: 50%;
   margin: auto;
 }
 
