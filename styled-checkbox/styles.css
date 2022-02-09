@@ -4,7 +4,6 @@ input[type="checkbox"] {
   height: 0;
 }
 .checkmark {
-  display: inline-block;
   width: 25px;
   height: 25px;
   background-color: #d3d3d3;
@@ -14,12 +13,12 @@ input[type="checkbox"] {
 }
 
 .checkbox {
+  display: inline-block;
   padding-left: 35px;
   position: relative;
   font-size: 24px;
   margin: 16px;
 }
-
 .checkbox input:checked + .checkmark {
   background-color: #006400;
 }
