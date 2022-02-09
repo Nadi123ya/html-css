@@ -3,6 +3,7 @@ input[type="checkbox"] {
   width: 0;
   height: 0;
 }
+
 .checkmark {
   width: 25px;
   height: 25px;
