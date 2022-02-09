@@ -27,11 +27,12 @@
   margin-bottom: 8px;
 }
 .form-label {
-  display: inline-block;
+  display: flex;
   margin-bottom: 4px;
 }
 .form-input {
-  display: block;
+  height: 32px;
+  display: flex;
   width: 100%;
   border-radius: 4px;
   border: 1px solid #808080;
@@ -39,6 +40,7 @@
   outline: none;
 }
 .submit-button {
+  display: block;
   width: 100%;
   line-height: 32px;
   background-color: #ff7f50;
