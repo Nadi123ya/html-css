@@ -6,13 +6,12 @@
   height: 100vh;
   background-color: bisque;
   display: flex;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .login-form {
-  display: block;
-  position: absolute;
-  top: calc(50vh - 150px);
-  left: calc(50% - 150px);
+  display: flex;
+  flex-direction: column;
   background-color: aqua;
   font-size: 16px;
   font-family: monospace;
