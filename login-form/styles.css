@@ -1,16 +1,17 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+.page {
+  height: 100vh;
   background-color: bisque;
   padding: 50%;
 }
 .login-form {
-  display: flex;
-  position: absolute;
-  top: calc(50vh - 100px);
-  left: calc(50% - 100px);
   display: block;
+  position: absolute;
+  top: calc(50vh - 150px);
+  left: calc(50% - 150px);
   background-color: aqua;
   font-size: 16px;
   font-family: monospace;
