@@ -14,39 +14,43 @@
   <body>
     <form>
       <div>
-      <input type="text" name="primaryLanguage" value="HTML" disabled />
+        <input type="text" name="primaryLanguage" value="HTML" disabled />
       </div>
       <div>
-      <input type="checkbox" name="agree" unchecked />
+        <input type="checkbox" name="agree" unchecked />
       </div>
       <div>
-      <input type="checkbox" name="like" checked />
+        <input type="checkbox" name="like" checked />
       </div>
       <div>
-      <input type="color" name="favouriteColor" value="#ff7f50" />
-      </div>
-       <div>
-      <input type="date" name="birthDate" value="2021-01-02" />
+        <input type="color" name="favouriteColor" value="#ff7f50" />
       </div>
       <div>
-      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" />
+        <input type="date" name="birthDate" value="2021-01-02" />
       </div>
       <div>
-      <input
-        type="email"
-        name="email"
-        placeholder="example@domain.com"
-        required
-      />
+        <input
+          type="datetime-local"
+          name="birthTime"
+          value="2024-10-04T13:02"
+        />
       </div>
       <div>
-      <input type="file" name="avatar" />
+        <input
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
+        />
       </div>
       <div>
-      <input type="month" name="startLearning" value="2020-01" />
+        <input type="file" name="avatar" />
       </div>
       <div>
-      <input type="number" name="favouriteNumber" value="17" />
+        <input type="month" name="startLearning" value="2020-01" />
+      </div>
+      <div>
+        <input type="number" name="favouriteNumber" value="17" />
       </div>
       <div>
         <textarea
@@ -57,33 +61,23 @@
         ></textarea>
       </div>
       <div>
-      <input type="password" name="password" value="secret" />
+        <input type="password" name="password" value="secret" />
       </div>
       <div class="languages">
-        <input type="radio" id="language-p" name="language" value="html" />
-        <span>HTML</span>
-        <!-- <label for="language">HTML</label> -->
+        <input type="radio" id="html" name="language" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="language" value="css" checked />
+        <label for="css">CSS</label>
         <input
           type="radio"
-          id="language-p"
-          name="language"
-          value="css"
-          checked
-        />
-        <span>CSS</span>
-        </span>
-        <!-- <label for="language">CSS</label> -->
-        <input
-          type="radio"
-          id="language-p"
+          id="javascript"
           name="language"
           value="javascript"
         />
-        <span>JavaScript</span>
-        <!-- <label for="language">JavaScript</label> -->
+        <label for="javascript">JavaScript</label>
       </div>
-       <div>
-      <input type="range" name="learningProgress" value="30" />
+      <div>
+        <input type="range" name="learningProgress" value="30" />
       </div>
       <div>
         <select name="framework">
@@ -93,24 +87,28 @@
         </select>
       </div>
       <div>
-      <input type="search" name="search" placeholder="Type first letters..." />
-       </div>
-       <div>
-      <input type="time" name="lunchEnd" value="14:01" />
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
       </div>
       <div>
-      <input
-        type="url"
-        name="website"
-        placeholder="https://website.com"
-        required
-      />
+        <input type="time" name="lunchEnd" value="14:01" />
       </div>
       <div>
-      <input type="week" name="birthWeek" value="2021-W51" />
+        <input
+          type="url"
+          name="website"
+          placeholder="https://website.com"
+          required
+        />
       </div>
       <div>
-      <button type="submit">Save</button>
+        <input type="week" name="birthWeek" value="2021-W51" />
+      </div>
+      <div>
+        <button type="submit">Save</button>
       </div>
     </form>
   </body>
