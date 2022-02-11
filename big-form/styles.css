@@ -12,6 +12,7 @@ textarea,
 .select,
 .languages {
   margin: 8px;
+  display: block;
 }
 
 #language-p {
