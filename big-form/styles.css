@@ -7,14 +7,14 @@ form {
 }
 
 input,
+button,
 textarea,
-.languages,
 .select,
-button {
-  display: block;
+.languages {
   margin: 8px;
 }
 
 #language-p {
   display: inline;
+  margin: 0;
 }
