@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  margin: 32px;
+}
+
+input,
+textarea,
+.languages,
+.select,
+button {
+  display: block;
+  margin: 8px;
+}
+
+#language-p {
+  display: inline;
+}
