@@ -1,21 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 form {
   margin: 32px;
 }
-
-input,
-button,
-textarea,
-.select,
-.languages {
+div {
   margin: 8px;
-  display: block;
-}
-
-#language-p {
-  display: inline;
-  margin: 0;
 }
