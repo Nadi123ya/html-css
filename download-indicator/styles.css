@@ -24,10 +24,8 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;
-  animation: blinking 2s;
-  animation: moving 2s;
+  animation: blinking 2s forwards, moving 2s infinite;
   position: relative;
-  animation-iteration-count: infinite;
 }
 @keyframes moving {
   from {
