@@ -13,7 +13,10 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s infinite linear;
+  animation: blinking;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 .circle {
   display: flex;
@@ -24,7 +27,9 @@
   border-top: 4px solid black;
   margin-bottom: 8px;
   border-radius: 50%;
-  animation: spin 2s linear;
+  animation: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 
 @keyframes blinking {
