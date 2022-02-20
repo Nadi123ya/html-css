@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+div {
+  min-height: 200px;
+  display: flex;
+}
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,20 +14,16 @@ span {
   border-radius: 4px;
   margin: auto;
 }
-div {
-  min-height: 200px;
-  display: flex;
-}
 .products {
   display: flex;
 }
 .navigation {
   background-color: #ff7f50;
-  flex: 1 0 auto;
+  flex: 1 1 50%;
 }
 .products-list {
   background-color: #006400;
-  flex: 1 0 auto;
+  flex: 1 1 50%;
 }
 .news {
   background-color: #0ff;
@@ -37,9 +38,9 @@ div {
     display: flex;
   }
   .products {
-    flex: 2 0 auto;
+    flex: 2 1 0;
   }
   .news {
-    flex: 1 0 auto;
+    flex: 1 1 0;
   }
 }
