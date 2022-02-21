@@ -33,7 +33,8 @@ header {
   padding: 0.5em;
 }
 .section__header {
-  margin-top: 0;
+  display: flex;
+  justify-content: center;
 }
 .nav-list {
   padding: 0;
