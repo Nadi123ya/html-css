@@ -32,6 +32,9 @@ header {
 .news {
   padding: 0.5em;
 }
+.section__header {
+  margin-top: 0;
+}
 .nav-list {
   padding: 0;
   display: flex;
