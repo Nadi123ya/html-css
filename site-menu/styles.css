@@ -37,7 +37,7 @@ button {
 .nav-list > .nav-list-item {
   display: flex;
   list-style-type: none;
-  line-height: 2em;
+  height: 2em;
   margin-bottom: 0.5em;
   background-color: #808080;
 }
