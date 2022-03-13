@@ -20,15 +20,14 @@ $lg: 1200px;
         @content;
     }
 }
-
+@mixin for-large-up{
+    @media screen and (min-width: $lg){
+        @content;
+    }
+}
 @mixin for-big-up{
     @media screen and (min-width: $md){
         @content
     }
 }
 
-@mixin for-large-up{
-    @media screen and (min-width: $lg){
-        @content;
-    }
-}
