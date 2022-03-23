@@ -1,0 +1,29 @@
+.about {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(244, 245, 247, 1);
+    padding-top:77px;
+    padding-bottom:76px;
+    padding-left: 133px;
+    padding: 77px 133px 76px 133px;
+  }
+  
+  .article{
+    width: 555px;
+   
+  }
+  .article__title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    margin:0;
+  }
+
+  .article__text{
+    margin-top:6px;
+    margin-bottom:0;
+    font-size: 22px;
+    line-height: 32px;
+    
+  } 
